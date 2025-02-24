@@ -10,13 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~Msle0~/\<61633165353766643561643333623565333538353033346535326236333236353435316334343763\>
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1740155521,,"wq"
+|2,0,1740390090,,"wq"
 :q
-|2,0,1740155086,,"q"
+|2,0,1740387741,,"q"
+:q!
+|2,0,1740387415,,"q!"
+:q:
+|2,0,1740387398,,"q:"
 
 # Search String History (newest to oldest):
+? \<61633165353766643561643333623565333538353033346535326236333236353435316334343763\>
+|2,1,1740387409,,"\\<61633165353766643561643333623565333538353033346535326236333236353435316334343763\\>"
 
 # Expression History (newest to oldest):
 
@@ -25,265 +34,331 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	    - /home/admin/index.html:/usr/local/apache2/htdocs/index.html
+|3,1,1,1,1,0,1740387241,"    - /home/admin/index.html:/usr/local/apache2/htdocs/index.html"
+"2	LINE	0
+	        volumes: 
+|3,0,2,1,1,0,1740387240,"        volumes: "
+"3	LINE	0
+	          - "80:80"
+|3,0,3,1,1,0,1740387239,"          - \"80:80\""
+"4	LINE	0
+	        ports:
+|3,0,4,1,1,0,1740387239,"        ports:"
+"5	LINE	0
+	        image: httpd
+|3,0,5,1,1,0,1740387238,"        image: httpd"
+"6	LINE	0
+	        name: webapp
+|3,0,6,1,1,0,1740387238,"        name: webapp"
+"7	LINE	0
+	      docker_container:
+|3,0,7,1,1,0,1740387237,"      docker_container:"
+"8	LINE	0
+	    - name: Create Apache container
+|3,0,8,1,1,0,1740387236,"    - name: Create Apache container"
+"9	LINE	0
+	        dest: /home/admin/index.html
+|3,0,9,1,1,0,1740387235,"        dest: /home/admin/index.html"
 
 # File marks:
-'0  29  64  ~/deploy.yml
-|4,48,29,64,1740155521,"~/deploy.yml"
-'1  5  57  ~/hosts.yml
-|4,49,5,57,1740155151,"~/hosts.yml"
-'2  27  18  ~/deploy.yml
-|4,50,27,18,1740155086,"~/deploy.yml"
-'3  19  18  ~/deploy.yml
-|4,51,19,18,1740155086,"~/deploy.yml"
-'4  9  17  ~/hosts.yml
-|4,52,9,17,1740155059,"~/hosts.yml"
-'5  8  17  ~/hosts.yml
-|4,53,8,17,1740155059,"~/hosts.yml"
-'6  1  35  ~/templates/index.html.j2
-|4,54,1,35,1740155021,"~/templates/index.html.j2"
-'7  2  22  ~/group_vars/prod.yml
-|4,55,2,22,1740149465,"~/group_vars/prod.yml"
-'8  9  29  ~/hosts.yml
-|4,56,9,29,1740149396,"~/hosts.yml"
-'9  8  29  ~/hosts.yml
-|4,57,8,29,1740149396,"~/hosts.yml"
+'0  2  0  ~/group_vars/prod.yml
+|4,48,2,0,1740390090,"~/group_vars/prod.yml"
+'1  1  21  ~/group_vars/prod.yml
+|4,49,1,21,1740389899,"~/group_vars/prod.yml"
+'2  2  2  ~/group_vars/prod.yml
+|4,50,2,2,1740389899,"~/group_vars/prod.yml"
+'3  2  5  ~/files/secrets/credentials.yml
+|4,51,2,5,1740389867,"~/files/secrets/credentials.yml"
+'4  1  66  ~/group_vars/prod.yml
+|4,52,1,66,1740388949,"~/group_vars/prod.yml"
+'5  2  47  ~/group_vars/prod.yml
+|4,53,2,47,1740388949,"~/group_vars/prod.yml"
+'6  3  4  ~/hosts.yml
+|4,54,3,4,1740388930,"~/hosts.yml"
+'7  6  30  ~/deploy_2.yml
+|4,55,6,30,1740388289,"~/deploy_2.yml"
+'8  1  66  ~/group_vars/prod.yml
+|4,56,1,66,1740388246,"~/group_vars/prod.yml"
+'9  1  66  ~/group_vars/prod.yml
+|4,57,1,66,1740388246,"~/group_vars/prod.yml"
 
 # Jumplist (newest first):
--'  29  64  ~/deploy.yml
-|4,39,29,64,1740155521,"~/deploy.yml"
--'  27  18  ~/deploy.yml
-|4,39,27,18,1740155154,"~/deploy.yml"
--'  5  57  ~/hosts.yml
-|4,39,5,57,1740155151,"~/hosts.yml"
--'  5  57  ~/hosts.yml
-|4,39,5,57,1740155151,"~/hosts.yml"
--'  9  17  ~/hosts.yml
-|4,39,9,17,1740155088,"~/hosts.yml"
--'  9  17  ~/hosts.yml
-|4,39,9,17,1740155088,"~/hosts.yml"
--'  19  18  ~/deploy.yml
-|4,39,19,18,1740155086,"~/deploy.yml"
--'  19  18  ~/deploy.yml
-|4,39,19,18,1740155086,"~/deploy.yml"
--'  8  17  ~/hosts.yml
-|4,39,8,17,1740155059,"~/hosts.yml"
--'  8  17  ~/hosts.yml
-|4,39,8,17,1740155059,"~/hosts.yml"
--'  8  17  ~/hosts.yml
-|4,39,8,17,1740155059,"~/hosts.yml"
--'  8  17  ~/hosts.yml
-|4,39,8,17,1740155059,"~/hosts.yml"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  1  35  ~/templates/index.html.j2
-|4,39,1,35,1740155021,"~/templates/index.html.j2"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
--'  2  22  ~/group_vars/prod.yml
-|4,39,2,22,1740149465,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  1  21  ~/group_vars/prod.yml
+|4,39,1,21,1740390084,"~/group_vars/prod.yml"
+-'  2  2  ~/group_vars/prod.yml
+|4,39,2,2,1740389899,"~/group_vars/prod.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388949,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388949,"~/group_vars/prod.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740388930,"~/hosts.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  6  30  ~/deploy_2.yml
+|4,39,6,30,1740388289,"~/deploy_2.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388246,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
+-'  2  47  ~/group_vars/prod.yml
+|4,39,2,47,1740388182,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
 -'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740149442,"~/group_vars/prod.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
--'  8  29  ~/hosts.yml
-|4,39,8,29,1740149396,"~/hosts.yml"
+|4,39,1,0,1740388130,"~/group_vars/prod.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  5  ~/files/secrets/credentials.yml
+|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/deploy.yml
-	*	1740155519	0
-	"	29	64
-	^	29	65
-	.	29	64
-	+	27	16
-	+	17	7
-	+	2	32
-	+	17	0
-	+	6	0
-	+	22	3
-	+	23	5
-	+	24	7
-	+	25	7
-	+	26	7
-	+	27	9
-	+	16	24
-	+	22	35
-	+	7	30
-	+	12	12
-	+	13	12
-	+	21	35
-	+	29	64
+> ~/group_vars/prod.yml
+	*	1740390089	0
+	"	2	0
+	^	2	0
+	.	1	19
+	+	1	19
+
+> ~/files/secrets/credentials.yml
+	*	1740389866	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	23
+	+	2	5
 
 > ~/hosts.yml
-	*	1740155149	0
-	"	5	57
-	^	5	58
-	.	5	57
-	+	10	0
-	+	9	18
-	+	5	57
+	*	1740388927	0
+	"	3	4
+	.	3	0
+	+	8	0
+	+	7	18
+	+	3	57
+	+	7	32
+	+	3	0
+
+> ~/deploy_2.yml
+	*	1740388288	0
+	"	6	30
+	^	6	31
+	.	6	30
+	+	19	0
+	+	18	6
+	+	6	30
+
+> files/secrets/credentials.yaml
+	*	1740387400	0
+	"	1	0
+
+> ~/files/secrets/deploy_2.yml
+	*	1740387379	0
+	"	1	0
+
+> files/secrets/credential.yaml
+	*	1740387353	0
+	"	1	0
+
+> ~/deploy.yml
+	*	1740387196	0
+	"	19	5
+	^	19	6
+	.	19	6
+	+	29	16
+	+	19	7
+	+	2	32
+	+	19	0
+	+	8	0
+	+	24	3
+	+	25	5
+	+	26	7
+	+	27	7
+	+	28	7
+	+	29	9
+	+	18	24
+	+	24	35
+	+	9	30
+	+	14	12
+	+	15	12
+	+	23	35
+	+	31	64
+	+	6	34
+	+	19	6
 
 > ~/templates/index.html.j2
 	*	1740155019	0
@@ -291,13 +366,6 @@
 	^	1	36
 	.	1	35
 	+	1	35
-
-> ~/group_vars/prod.yml
-	*	1740149464	0
-	"	2	22
-	^	2	23
-	.	2	22
-	+	2	22
 
 > ~/ansible.cfg
 	*	1740149206	0

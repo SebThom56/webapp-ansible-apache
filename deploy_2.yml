@@ -3,7 +3,7 @@
   hosts: prod
   become: true
   vars_files:
-    - files/secrets/credential.yaml
+    - files/secrets/credentials.yml
   pre_tasks:
     - name: Install some package
       package: name={{ item }} state=present
@@ -16,16 +16,3 @@
       dnf: name=python-pip state=present update_cache=yes
     - name: Install docker python
       pip: name=docker-py
-  tasks:
-    - name: Copy Website file template
-      template:
-        src: index.html.j2
-        dest: /home/admin/index.html
-    - name: Create Apache container
-      docker_container:
-        name: webapp
-        image: httpd
-        ports:
-          - "80:80"
-        volumes: 
-    - /home/admin/index.html:/usr/local/apache2/htdocs/index.html
