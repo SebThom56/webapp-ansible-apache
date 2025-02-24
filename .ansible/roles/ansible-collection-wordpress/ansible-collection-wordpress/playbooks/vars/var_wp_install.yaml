@@ -1,0 +1,29 @@
+wordpress_version: 6.5.2
+
+mysql_user_home: /root
+mysql_user_name: root
+mysql_user_password: root
+
+mysql_root_home: /root
+mysql_root_username: root
+mysql_root_password: root
+
+mysql_enabled_on_startup: true
+
+# Databases.
+mysql_databases:
+  - name: wp_demosite
+    collation: utf8_general_ci
+    encoding: utf8
+    replicate: 1
+#   - name: example
+#     collation: utf8_general_ci
+#     encoding: utf8
+#     replicate: 1
+
+# Users.
+mysql_users:
+  - name: "{{ wordpress_database_username | default('dbuser') }}"
+    host: "{{ wordpress_database_server | default('localhost') }}"
+    password: "{{ wordpress_database_password | default('dbpassword') }}"
+    priv: '{{ wordpress_database_name }}.*:ALL'

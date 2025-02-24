@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1740390090,,"wq"
+|2,0,1740404646,,"wq"
 :q
 |2,0,1740387741,,"q"
 :q!
@@ -63,230 +63,262 @@
 |3,0,9,1,1,0,1740387235,"        dest: /home/admin/index.html"
 
 # File marks:
-'0  2  0  ~/group_vars/prod.yml
-|4,48,2,0,1740390090,"~/group_vars/prod.yml"
-'1  1  21  ~/group_vars/prod.yml
-|4,49,1,21,1740389899,"~/group_vars/prod.yml"
-'2  2  2  ~/group_vars/prod.yml
-|4,50,2,2,1740389899,"~/group_vars/prod.yml"
-'3  2  5  ~/files/secrets/credentials.yml
-|4,51,2,5,1740389867,"~/files/secrets/credentials.yml"
-'4  1  66  ~/group_vars/prod.yml
-|4,52,1,66,1740388949,"~/group_vars/prod.yml"
-'5  2  47  ~/group_vars/prod.yml
-|4,53,2,47,1740388949,"~/group_vars/prod.yml"
-'6  3  4  ~/hosts.yml
-|4,54,3,4,1740388930,"~/hosts.yml"
-'7  6  30  ~/deploy_2.yml
-|4,55,6,30,1740388289,"~/deploy_2.yml"
-'8  1  66  ~/group_vars/prod.yml
-|4,56,1,66,1740388246,"~/group_vars/prod.yml"
-'9  1  66  ~/group_vars/prod.yml
-|4,57,1,66,1740388246,"~/group_vars/prod.yml"
+'0  7  28  ~/hosts.yml
+|4,48,7,28,1740404646,"~/hosts.yml"
+'1  7  28  ~/wordpress.yml
+|4,49,7,28,1740403519,"~/wordpress.yml"
+'2  12  41  ~/wordpress.yml
+|4,50,12,41,1740403224,"~/wordpress.yml"
+'3  12  41  ~/wordpress.yml
+|4,51,12,41,1740403224,"~/wordpress.yml"
+'4  2  2  ~/roles/requirements.yml
+|4,52,2,2,1740403163,"~/roles/requirements.yml"
+'5  2  2  ~/roles/requirements.yml
+|4,53,2,2,1740402698,"~/roles/requirements.yml"
+'6  12  14  ~/wordpress.yml
+|4,54,12,14,1740402348,"~/wordpress.yml"
+'7  12  14  ~/wordpress.yml
+|4,55,12,14,1740402348,"~/wordpress.yml"
+'8  2  77  ~/roles/requirements.yml
+|4,56,2,77,1740394732,"~/roles/requirements.yml"
+'9  2  77  ~/roles/requirements.yml
+|4,57,2,77,1740394732,"~/roles/requirements.yml"
 
 # Jumplist (newest first):
+-'  7  28  ~/hosts.yml
+|4,39,7,28,1740404646,"~/hosts.yml"
+-'  3  4  ~/hosts.yml
+|4,39,3,4,1740404631,"~/hosts.yml"
+-'  7  28  ~/wordpress.yml
+|4,39,7,28,1740403519,"~/wordpress.yml"
+-'  7  28  ~/wordpress.yml
+|4,39,7,28,1740403519,"~/wordpress.yml"
+-'  12  41  ~/wordpress.yml
+|4,39,12,41,1740403508,"~/wordpress.yml"
+-'  12  41  ~/wordpress.yml
+|4,39,12,41,1740403508,"~/wordpress.yml"
+-'  12  41  ~/wordpress.yml
+|4,39,12,41,1740403224,"~/wordpress.yml"
+-'  12  41  ~/wordpress.yml
+|4,39,12,41,1740403224,"~/wordpress.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740403163,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  2  2  ~/roles/requirements.yml
+|4,39,2,2,1740402698,"~/roles/requirements.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  12  14  ~/wordpress.yml
+|4,39,12,14,1740402348,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  1  0  ~/wordpress.yml
+|4,39,1,0,1740394751,"~/wordpress.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  2  77  ~/roles/requirements.yml
+|4,39,2,77,1740394732,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
+-'  1  0  ~/roles/requirements.yml
+|4,39,1,0,1740394610,"~/roles/requirements.yml"
 -'  2  0  ~/group_vars/prod.yml
 |4,39,2,0,1740390090,"~/group_vars/prod.yml"
--'  1  21  ~/group_vars/prod.yml
-|4,39,1,21,1740390084,"~/group_vars/prod.yml"
--'  2  2  ~/group_vars/prod.yml
-|4,39,2,2,1740389899,"~/group_vars/prod.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740389867,"~/files/secrets/credentials.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388949,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388949,"~/group_vars/prod.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  3  4  ~/hosts.yml
-|4,39,3,4,1740388930,"~/hosts.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  6  30  ~/deploy_2.yml
-|4,39,6,30,1740388289,"~/deploy_2.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388246,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  2  47  ~/group_vars/prod.yml
-|4,39,2,47,1740388182,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  1  0  ~/group_vars/prod.yml
-|4,39,1,0,1740388130,"~/group_vars/prod.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
--'  2  5  ~/files/secrets/credentials.yml
-|4,39,2,5,1740388083,"~/files/secrets/credentials.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
+-'  2  0  ~/group_vars/prod.yml
+|4,39,2,0,1740390090,"~/group_vars/prod.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/hosts.yml
+	*	1740404644	0
+	"	7	28
+	^	7	29
+	.	7	28
+	+	8	0
+	+	7	18
+	+	3	57
+	+	7	32
+	+	3	0
+	+	7	28
+
+> ~/wordpress.yml
+	*	1740403518	0
+	"	7	28
+	^	7	29
+	.	7	28
+	+	2	13
+	+	13	0
+	+	5	25
+	+	12	41
+	+	7	28
+
+> ~/roles/requirements.yml
+	*	1740403161	0
+	"	2	2
+	^	2	2
+	.	2	1
+	+	2	78
+	+	3	61
+	+	2	1
 
 > ~/group_vars/prod.yml
 	*	1740390089	0
@@ -302,16 +334,6 @@
 	.	2	5
 	+	2	23
 	+	2	5
-
-> ~/hosts.yml
-	*	1740388927	0
-	"	3	4
-	.	3	0
-	+	8	0
-	+	7	18
-	+	3	57
-	+	7	32
-	+	3	0
 
 > ~/deploy_2.yml
 	*	1740388288	0
